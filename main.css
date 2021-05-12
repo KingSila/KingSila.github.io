@@ -17,13 +17,13 @@ body{
   width:extend-to-zoom;
 }
 .wrapper{
-  width: 25%;
+  width: 100%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 .statistic{
-  width: 80%;
+  width: 30%;
 }
 
 .total_case_box{
