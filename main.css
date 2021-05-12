@@ -23,7 +23,7 @@ body{
   transform: translateX(-50%);
 }
 .statistic{
-  width: 30%;
+  width: 80%;
 }
 
 .total_case_box{
@@ -61,7 +61,7 @@ body{
 
 /*Styiling the table*/
 table{
-  width: 100%;
+  width: auto;
   padding: 15px 10px;
   margin: 10px 0;
   text-align: center;
