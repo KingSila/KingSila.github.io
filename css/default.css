@@ -15,8 +15,8 @@ h2 a:hover{color:#f4623a}
 /*   =====  Top header   ======   */
 #header{}
 #header:after{ clear:both; display:block; content:"";}
-#header ul{color:#fff; font-size:14px; float:right; list-style:none; margin-top:10px;}
-#header ul li{padding-bottom:6px;}
+#header ul{color:#fff; font-size:10px; float:right; list-style:none; margin-top:10px;}
+#header ul li{padding-bottom:4px;}
 
 /*   =====  Links on the top   ======   */
 
@@ -31,7 +31,7 @@ h2 a:hover{color:#f4623a}
 
 #intro{margin-top:10px;}
 #intro:after{ clear:both; display:block; content:"";}
-#intro p{font-family: 'Crimson Text', arial, serif; font-size:45px; color:#fff; }
+#intro p{font-family: 'Crimson Text', arial, serif; font-size:42px; color:#fff; }
 #intro p:selection{color:#000;}
 .highlight{color:#f4623a;}
 
