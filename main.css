@@ -103,7 +103,7 @@ tr td{
   font-size:18px;
 }
 .twitter-timeline {
- 
+  width: auto;
   float: right;
   margin-left: 5px;
 
