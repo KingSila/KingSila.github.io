@@ -61,7 +61,7 @@ body{
 
 /*Styiling the table*/
 table{
-  width: auto;
+  width: 100;
   padding: 15px 10px;
   margin: 10px 0;
   text-align: center;
