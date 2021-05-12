@@ -5,7 +5,7 @@
   font-family: 'Nunito',sans-serif;
 }
 body{
-  background-color: #1e88e5;
+  background-color: #747677;
 }
 
 @viewport{
@@ -17,13 +17,13 @@ body{
   width:extend-to-zoom;
 }
 .wrapper{
-  width: 100%;
+  width: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
 }
 .statistic{
-  width: 100%;
+  width: auto%;
 }
 
 .total_case_box{
@@ -48,7 +48,7 @@ body{
   background-color: #fafafa;
   box-shadow: 2px 2px 8px rgba(30,30,30,.2);
   margin: 10px 15px;
-  width:25%;
+  width:auto;
   text-align: center;
   padding: 15px 0;
   border-radius: 8px;
@@ -61,7 +61,7 @@ body{
 
 /*Styiling the table*/
 table{
-  width: 100;
+  width: auto;
   padding: 15px 10px;
   margin: 10px 0;
   text-align: center;
