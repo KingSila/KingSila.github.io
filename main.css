@@ -17,7 +17,7 @@ body{
   width:extend-to-zoom;
 }
 .wrapper{
-  width: 100%;
+  width: 25%;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
