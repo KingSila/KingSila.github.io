@@ -1,0 +1,16 @@
+fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "fetch("https://coronavirus-monitor.p.rapidapi.com/coronavirus/cases_by_country.php", {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "f66be3eeedmsh5c5a9cac183661ap140b7ejsn88ac68391602",
+		"x-rapidapi-host": "coronavirus-monitor.p.rapidapi.com"
+    }
+})
+.then(response => response.json().then(data => {
+    console.log(data);
+}))
+.catch(err => {
+    console.log(err);
+});

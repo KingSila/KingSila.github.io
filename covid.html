@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?
+    family=Montserrat|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+    <title>South-Africa Covid Dashboard</title>
+    <link rel="stylesheet" href="main.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+      
+</head>
+<body class="dark-theme">
+  <p class="marquee"><span id="dtText"></span></p>
+  <div class="wrapper">
+    <div class="statistic">
+
+        <div class="total_case_box">
+            <h2>Total Cases</h2>
+            <p id="total_cases"></p>
+        </div>
+       <div class="box_wrapper" >
+            <div class="box">
+                <h2>Total Death</h2>
+                <p id="total_death"> </p>
+            </div>
+
+            <div class="box">
+                <h2>Total Recovery</h2>
+                <p id="total_recovered"> </p>
+            </div>
+
+            <div class="box">
+                <h2>New case</h2>
+                <p id="new_case"> </p>
+            </div>
+
+            <div class="box">
+                <h2>New Death</h2>
+                <p id="new_death"> </p>
+            </div>
+       </div> 
+    
+       <table id="countries_stat">
+           <tr>
+               <th>Country</th>
+               <th>Cases</th>
+               <th>Deaths</th>
+               <th>serious critical</th>
+               <th>total recovered</th>
+           </tr>
+       </table>
+    </div>
+</div>
+
+      <script src='app.js'></script>
+      <noscript>You need to enable JavaScript to view the full site.</noscript>
+      <a class="twitter-timeline" data-width=270 data-height="1600"  href="https://twitter.com/HealthZA?ref_src=twsrc%5Etfw">Tweets by HealthZA</a> 
+	  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</body>
+</html>
